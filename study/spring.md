@@ -13,6 +13,8 @@
 | `@OneToMany` | 일대다 매핑              |                             |
 | `@PersistenceContext` | jpa 엔티티 매니저 주입      |                             |
 | `@Transactional` | 트랜잭션                | readOnly = true : 읽기 성능 최적화 |
+| `@SpringBootTest` | 스프링부트 띄운 상태로 테스트 | |
+
 
 ### 엔티티 설계 시 주의점
 - 변경지점이 명확하도록 @Setter은 많이 쓰지 않는 것이 좋음

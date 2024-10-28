@@ -4,6 +4,7 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jpabook.jpashop.sample.Member;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -28,7 +29,8 @@ public class MemberRepository {
     }
 
     public List<Member> findMemberByName(String name){
-        return em.createQuery("select m from Member m where m.name=:name", Member.class)
+        return em.createQuery("select m from Member m where m.name = :name", Member.class)
+                .setParameter("name", name)
                 .getResultList();
     }
 }
