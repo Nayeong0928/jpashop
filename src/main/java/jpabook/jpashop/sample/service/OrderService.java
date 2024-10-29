@@ -4,6 +4,7 @@ import jpabook.jpashop.sample.Delivery;
 import jpabook.jpashop.sample.Member;
 import jpabook.jpashop.sample.Order;
 import jpabook.jpashop.sample.OrderItem;
+import jpabook.jpashop.sample.controller.OrderSearch;
 import jpabook.jpashop.sample.item.Item;
 import jpabook.jpashop.sample.repository.ItemRepository;
 import jpabook.jpashop.sample.repository.MemberRepository;
