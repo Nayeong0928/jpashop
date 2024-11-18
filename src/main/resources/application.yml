@@ -13,7 +13,7 @@ spring:
         show_sql: true
         format_sql: true
 
-logging:
-  level:
-    org.hibernate.SQL: debug
-    org.hibernate.orm.jdbc.bind: trace # 운영에서는 검토 필요
+#logging:
+#  level:
+#    org.hibernate.SQL: debug
+#    org.hibernate.orm.jdbc.bind: trace # 운영에서는 검토 필요
