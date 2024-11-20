@@ -1,5 +1,8 @@
 # Overview
-[Springboot+JPA 강의](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1) 를 실습하는 프로젝트
+[실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발](https://inf.run/hhEvV) 
+[실전! 스프링 부트와 JPA 활용2 - API 개발과 성능 최적화](https://inf.run/CU9mR)
+강의를 실습하는 프로젝트
+
 
 ### 기술
 - Springboot
@@ -7,6 +10,3 @@
 - H2 Database
 - Thymeleaf
 
-# Study
-- [타임리프 사용법 메모](study/thymeleaf.md)
-- [spring 사용법 메모](study/spring.md)
